@@ -1,0 +1,487 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	large: {
+		file: large.fnt
+	}
+	medium: {
+		file: medium.fnt
+	}
+	small: {
+		file: small.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	clear: {
+		r: 1
+		g: 1
+		b: 1
+		a: 0
+	}
+	textfield-selection: {
+		r: 1
+		g: 1
+		b: 1
+		a: 0.46666667
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	progress-bar-clear: {
+		name: progress-bar
+		color: clear
+	}
+	textfield-selection: {
+		name: white
+		color: textfield-selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.utils.TiledDrawable: {
+	progress-bar-tiled: {
+		region: progress-bar
+		color: white
+		minWidth: 0
+		minHeight: 24
+	}
+}
+com.ray3k.tenpatch.TenPatchDrawable: {
+	divider-10: {
+		region: divider
+		horizontalStretchAreas: [ 0, 89 ]
+		verticalStretchAreas: [ 0, 1 ]
+		tiling: false
+		minWidth: 307
+		minHeight: 2
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	scroll-knob-horizontal-10: {
+		region: scroll-knob-horizontal
+		horizontalStretchAreas: [ 9, 51 ]
+		verticalStretchAreas: [ 7, 14 ]
+		tiling: false
+		minWidth: 62
+		minHeight: 22
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	scroll-knob-vertical-10: {
+		region: scroll-knob-vertical
+		horizontalStretchAreas: [ 7, 14 ]
+		verticalStretchAreas: [ 8, 49 ]
+		tiling: false
+		minWidth: 22
+		minHeight: 58
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	select-box-open-10: {
+		region: select-box-open
+		horizontalStretchAreas: [ 1, 12 ]
+		verticalStretchAreas: [ 7, 17 ]
+		tiling: false
+		minWidth: 20
+		minHeight: 19
+		rightWidth: 9
+		leftWidth: 3
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	select-box-10: {
+		region: select-box
+		horizontalStretchAreas: [ 1, 12 ]
+		verticalStretchAreas: [ 7, 17 ]
+		tiling: false
+		minWidth: 20
+		minHeight: 19
+		rightWidth: 9
+		leftWidth: 3
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	select-box-pane-10: {
+		region: select-box-pane
+		horizontalStretchAreas: [ 4, 14 ]
+		verticalStretchAreas: [ 3, 10 ]
+		tiling: false
+		minWidth: 18
+		minHeight: 14
+		rightWidth: 3
+		leftWidth: 3
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	selection-10: {
+		region: selection
+		horizontalStretchAreas: [ 1, 12 ]
+		verticalStretchAreas: [ 1, 12 ]
+		tiling: false
+		minWidth: 14
+		minHeight: 14
+		rightWidth: 5
+		leftWidth: 5
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	slider-10: {
+		region: slider
+		horizontalStretchAreas: [ 5, 238 ]
+		verticalStretchAreas: [ 0, 3 ]
+		tiling: false
+		minWidth: 256
+		minHeight: 4
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	table-bg-10: {
+		region: table-bg
+		horizontalStretchAreas: [ 1, 23 ]
+		verticalStretchAreas: [ 1, 23 ]
+		tiling: false
+		minWidth: 25
+		minHeight: 25
+		rightWidth: 3
+		leftWidth: 3
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	text-button-over-10: {
+		region: text-button-over
+		horizontalStretchAreas: [ 7, 39 ]
+		verticalStretchAreas: [ 0, 41 ]
+		tiling: false
+		minWidth: 40
+		minHeight: 42
+		rightWidth: 6
+		leftWidth: 14
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	text-field-10: {
+		region: text-field
+		horizontalStretchAreas: [ 1, 27 ]
+		verticalStretchAreas: [ 1, 21 ]
+		tiling: false
+		minWidth: 29
+		minHeight: 23
+		rightWidth: 4
+		leftWidth: 4
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	text-field-bottom-10: {
+		region: text-field-bottom
+		horizontalStretchAreas: [ 1, 215 ]
+		verticalStretchAreas: [ 1, 5 ]
+		tiling: false
+		minWidth: 242
+		minHeight: 23
+		rightWidth: 27
+		leftWidth: 3
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	text-field-top-10: {
+		region: text-field-top
+		horizontalStretchAreas: [ 1, 215 ]
+		verticalStretchAreas: [ 16, 21 ]
+		tiling: false
+		minWidth: 242
+		minHeight: 23
+		rightWidth: 27
+		leftWidth: 3
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	text-button-10: {
+		region: text-button-over
+		color: clear
+		horizontalStretchAreas: [ 7, 39 ]
+		verticalStretchAreas: [ 0, 41 ]
+		tiling: false
+		minWidth: 40
+		minHeight: 42
+		rightWidth: 6
+		leftWidth: 14
+		bottomHeight: 3
+		topHeight: 3
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	split-pane-horizontal-10: {
+		region: split-pane-horizontal
+		horizontalStretchAreas: [ 0, 1 ]
+		verticalStretchAreas: [ 0, 137, 151, 288 ]
+		tiling: false
+		minWidth: 2
+		minHeight: 289
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+	split-pane-vertical-10: {
+		region: split-pane-vertical
+		horizontalStretchAreas: [ 0, 125, 139, 264 ]
+		verticalStretchAreas: [ 0, 1 ]
+		tiling: false
+		minWidth: 265
+		minHeight: 2
+		rightWidth: 0
+		leftWidth: 0
+		bottomHeight: 0
+		topHeight: 0
+		offsetX: 0
+		offsetY: 0
+		offsetXspeed: 0
+		offsetYspeed: 0
+		frameDuration: 0.03
+		regions: []
+		playMode: 2
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: text-button-10
+		down: text-button-over-10
+		over: text-button-over-10
+	}
+	textfield: {
+		up: text-field-button-up
+		down: text-field-button-down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: check-box-checked
+		checkboxOff: check-box
+		font: medium
+		pressedOffsetY: -1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: medium
+	}
+	small: {
+		font: small
+	}
+	large: {
+		font: large
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: medium
+		fontColorSelected: white
+		fontColorUnselected: white
+		selection: selection-10
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar-clear
+		knobBefore: progress-bar-tiled
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: select-box-pane-10
+		hScrollKnob: scroll-knob-horizontal-10
+		vScrollKnob: scroll-knob-vertical-10
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: medium
+		fontColor: white
+		background: select-box-10
+		scrollStyle: default
+		listStyle: default
+		backgroundOpen: select-box-open-10
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: slider-10
+		knob: slider-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: split-pane-horizontal-10
+	}
+	default-vertical: {
+		handle: split-pane-vertical-10
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: large
+		up: text-button-10
+		over: text-button-over-10
+		pressedOffsetY: -2
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: medium
+		fontColor: white
+		background: text-field-10
+		cursor: white
+		selection: textfield-selection
+	}
+	top: {
+		font: medium
+		fontColor: white
+		background: text-field-top-10
+		cursor: white
+		selection: textfield-selection
+	}
+	bottom: {
+		font: medium
+		fontColor: white
+		background: text-field-bottom-10
+		cursor: white
+		selection: textfield-selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: touchpad
+		knob: touchpad_1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: tree-collapsed
+		minus: tree-expanded
+	}
+}
+}
